@@ -6,13 +6,24 @@
 	<repo>https://github.com/MBuchalik/cordova-plugin-ios-permissions</repo>
 
 	<platform name="ios">
-		<config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-			<string>This app needs access to the camera to take photos.</string>
+		<config-file parent="NSMicrophoneUsageDescription" target="*-Info.plist" mode="merge">
+			<string>need microphone access to record sounds</string>
 		</config-file>
-		<config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
-			<string>This app needs access to the photo library to pick images.</string>
+		
+		<config-file parent="NSCameraUsageDescription" target="*-Info.plist" mode="merge">
+			<string>need camera access to take pictures</string>
 		</config-file>
-		<resource-file src="src/ios/de.lproj" />
-		<resource-file src="src/ios/pt.lproj" />
+
+		<config-file parent="NSPhotoLibraryUsageDescription" target="*-Info.plist" mode="merge">
+			<string>need photo library access to get pictures from there</string>
+		</config-file>
+
+		<config-file parent="NSLocationWhenInUseUsageDescription" target="*-Info.plist" mode="merge">
+			<string>need location access to find things nearby</string>
+		</config-file>
+
+		<config-file parent="NSPhotoLibraryAddUsageDescription" target="*-Info.plist" mode="merge">
+			<string>need photo library access to save pictures there</string>
+		</config-file>
 	</platform>
 </plugin>
