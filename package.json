@@ -4,7 +4,7 @@
 	"description": "Experimental plugin to prevent crashes in iOS apps due to missing entries in the plist file.",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/MBuchalik/cordova-plugin-ios-permissions.git"
+		"url": "git+https://github.com/mariusz-strawinski/cordova-plugin-ios-permissions.git"
 	},
 	"keywords": [
 		"cordova"
@@ -12,7 +12,7 @@
 	"author": "Martin Buchalik",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/MBuchalik/cordova-plugin-ios-permissions/issues"
+		"url": "https://github.com/Mmariusz-strawinski/cordova-plugin-ios-permissions/issues"
 	},
-	"homepage": "https://github.com/MBuchalik/cordova-plugin-ios-permissions#readme"
+	"homepage": "https://github.com/mariusz-strawinski/cordova-plugin-ios-permissions#readme"
 }
