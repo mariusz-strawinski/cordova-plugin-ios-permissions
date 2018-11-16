@@ -3,7 +3,7 @@
 	<name>Cordova iOS Permissions</name>
 	<description>Experimental plugin to prevent crashes in iOS apps due to missing entries in the plist file.</description>
 	<license>MIT</license>
-	<repo>https://github.com/MBuchalik/cordova-plugin-ios-permissions</repo>
+	<repo>https://github.com/mariusz-strawinski/cordova-plugin-ios-permissions</repo>
 
 	<platform name="ios">
 		<config-file parent="NSMicrophoneUsageDescription" target="*-Info.plist" mode="merge">
